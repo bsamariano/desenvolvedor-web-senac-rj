@@ -1,0 +1,736 @@
+
+body{
+	width: 95%;
+	max-width: 1500px;
+	height: auto;
+	margin: auto; 
+	background-color: white;
+}
+
+* { margin: 0; padding: 0; }
+
+#total{
+	width: 100%; 
+	height: auto;  
+	margin: auto;  
+}
+
+#logo{
+	width: auto;
+	height: auto;
+    float: left; 
+	margin-left: 2%;
+    margin-top: 16px;	
+}
+#menu {
+
+	width: 100%; 
+	height: 97px;
+    background-color: #53cdfd;
+		
+	
+}
+
+
+
+#links{
+     text-align: center;
+	height: auto;
+	width: auto;
+	margin-left: 4%;
+	margin-top: 2%;
+}
+#links a{
+	
+	text-decoration: lef;
+	color: black;
+	display: inline-block;
+	padding: 10px 0px 5px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 33px;
+	margin-top: 5px;
+}
+
+
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+	float: left;
+	border: solid 1px red;
+ }
+
+ 
+
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: auto;
+    width: 100%;
+	vertical-align: top;
+ }
+ 
+ #conteudo {
+	
+	width: 90%;
+	height: auto;
+	margin: auto;
+	
+}
+
+
+#teste{
+	width: 90%; 
+	height: 250px; 
+	float: left; 	
+	margin-left: 5%; 
+	margin-top: 4%; 
+	margin-bottom: 5%;	
+}
+
+#teste img{ 
+	float: left; 
+	border-radius: 15px;
+}
+
+#c1{
+	float: right;
+	width: auto;
+	height: auto;
+	font-family:'Roboto', sans-serif;
+	margin-right: 6%;
+}
+
+#cont_car{
+	margin-top: -5px;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	
+}
+#cont_car h2{
+	color:black;
+	text-align: center;
+	padding-top: 20px;
+	text-decoration: underline;
+
+}
+#cont_car p{
+
+text-align: center;
+margin-left: 90px;
+margin-right: 90px;
+font-size: 22px;
+
+}
+
+#cont_car img{
+   margin-left:40px;
+}
+
+
+#c2{
+	float: left;
+	width: 70%;
+	height: auto;
+	font-family:'Roboto', sans-serif;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 2.5%;
+}
+
+#c2 h1{
+	height: auto;
+	float: left ;
+	margin-left: 40%;
+}
+
+#c2 p{
+	width: auto;
+	height: auto;
+	float: right ;
+}
+#c3 {
+	width: auto;
+	height: auto;
+	margin-left: 23%;
+}
+#c3 img{
+	margin-top: 15%;
+	border-radius: 15px;
+}
+	* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.QS {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  
+ 
+}
+
+/* Make the image to responsive */
+.image {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background:rgb(176, 174, 174, 0.5);
+  width: 300px;
+  height: 25%;
+  opacity: 0.8;
+  transition: .5s ease;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  margin-top:20%;
+  border-radius: 15px;
+ 
+}
+
+.overlay1 {
+ position: absolute; 
+  bottom: 0; 
+  background:rgb(176, 174, 174, 0.5);
+  width:700px;
+  height: 7%;
+  opacity: 0.8;
+  transition: .5s ease;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  margin-top:20%;
+  border-radius: 15px;
+ 
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.QS:hover .overlay1 {
+  opacity: 1;
+  background: #44b0f8;
+  color: #f1f1f1;
+}
+
+
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  margin-bottom:18%;
+}
+
+/* Make the image to responsive */
+.image {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background:rgb(176, 174, 174, 0.5);
+  width: 300px;
+  height: 25%;
+  opacity: 0.8;
+  transition: .5s ease;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  
+ 
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+  background: #44b0f8;
+  color: black;
+}
+
+#rodape{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#r1{
+	width: 100%;
+	height: 100px;
+	float: left;
+	background-color: rgb(35, 135, 142);
+	margin-top: 3%;
+
+	
+}
+
+#r1 p{
+
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	margin-top: 30px;
+
+}
+
+#r2{
+	width: 100%;
+	height: 200px;
+	float: left;
+	background-color: #333333;
+}
+
+#r2 li{
+	width: auto;
+	height: auto;
+	margin-bottom: 3%;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+#r2 img{
+ padding-right: 3px;
+}
+
+#r2 h3{
+	color: #808080;
+	font-size: 15px;
+	margin-left: 0.2px;
+	margin-top: 20px;	
+}
+#txt{
+	float: left;
+	font-size: 17px;
+	color:  #fff;
+	width: 94%;
+	height: auto;
+	margin-left: 5%;
+	margin-top: 2%;
+	font-family: 'Roboto', sans-serif;
+}
+
+#r3{
+	width: 100%;
+	height: 60px ;
+	float: left;
+	background-color:#222222;
+}
+#r3 p{
+	width: auto;
+	height: auto;
+	line-height: 20px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #808080;
+	font-size: 13px;
+	margin-top: 24px;		
+}
+
+.div-dog{
+	width:50%;
+	height: auto;
+	background-color: rgba(255, 255, 255);
+	float: left; 
+	list-style:none;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+.div-dog ul li{
+	display:inline-block;
+	margin: 2% 3% 2% 3%;
+}
+.div-dog ul li a{
+	text-decoration: none;
+}
+.div-cat{
+	width:50%;
+	height: auto;
+	background-color: rgba(255, 255, 255);
+	float: left; 
+	list-style:none;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+.div-cat ul li{
+	display:inline-block;
+	margin:2% 3% 2% 3%;
+}
+.div-cat ul li a{
+	text-decoration: none;
+}
+li.dog-img-1 h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin-left: -24%;
+	z-index: 1000;
+	}
+li.dog-img-1 img{
+	border-radius:500px; 
+	border: 3px solid #44b0f8;
+	padding: 5px;
+	margin-left: -25%;
+}
+
+.hr{
+	border: 0;
+	height: 1px;
+	width: 100%;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #D8D8D8, rgba(0, 0, 0, 0));
+}
+.mapa{
+	float:left;
+	width: 50%;
+	height: auto;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 6%;
+	margin-top: 10%;
+	color: #808080;
+	
+}
+
+.doacoes{
+	float:left;
+	width: 100%;
+	height: auto;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top:3%;
+}
+#form{
+	margin-top: 3%;
+	margin-left: 12%;
+	margin-bottom: 4%;
+	width: auto;
+	height: auto;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+}
+#icons{
+	width: 365px; 
+	height: auto; 
+	float: left;
+	margin-left: 12%;
+	margin-top: 4%; 
+	-webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);
+	box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);	
+}
+#icons2{
+	width: auto; 
+	height: 60px; 
+	float: left;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	margin-left: 13px;
+}
+#icons2 img{
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+#icons2 p{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	float: right;
+	width: 260px;
+	height: auto;
+	color: #828282;
+	margin-left: 1px;
+	margin-top: 12px;
+}
+#map{
+	float: left;
+	margin-left: 30.0%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+#contato_t{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 43%;
+	width: auto;
+	margin-top: 2%;
+}
+#titulo_servicos{
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 43%;
+	width: auto;
+	height: auto;
+	margin-top: 2%;
+}
+#servicos{
+	width: 270px; 
+	height: auto; 
+	float: left; 	 
+	margin-left: 8%;
+
+	/*background-color: rgb(220,220,220);*/
+}
+#servicos img{ 
+	width: 260px; 
+	height: 250px; 
+	float: left;
+	border-radius: 500px;
+	border: 3px solid #44b0f8;
+	padding: 5px;
+}
+#titulo_petshop{
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	margin: 3% 0 0 45%;
+	width: auto;
+	height: auto;
+}
+#petshop{
+	width: 90%; 
+	height: 250px; 
+	float: left; 	
+	margin: 3% 0 5% 10%; 
+}
+
+#ps1 img{
+	width: 260px; 
+	height: 250px;  
+	float: left;
+	border-radius: 500px;
+	border: 3px solid #44b0f8;
+	padding: 5px;
+	margin-bottom: 5%;	
+}
+#ps1{
+	float: left;
+	width: 261px;
+	height: auto;
+	margin-left: 6%;
+}
+
+#ps1 h2{
+	color: #828282;
+	font-family: 'Roboto', sans-serif;
+}
+#descricoes{
+	width: 100%;
+	height: 250px;
+	float: left;
+	margin: 2% 0 2% 0;
+}
+#descricoes img{
+	width: 260px; 
+	height: 250px; 
+	float: left;
+	border-radius: 500px;
+	border: 3px solid rgb(107, 142, 35);
+	padding: 5px;
+	margin-left: 5%;
+}
+#descricoes p{
+	width: 68%;
+	height: auto;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	margin: 2% 0 0 3%;
+}
+#descricoes h2{
+	width: auto;
+	height: auto;
+	float: left;
+	color: #828282;
+	font-family: 'Roboto', sans-serif;
+	margin: 4% 0 0 3%;
+}
+#pet{
+	width: auto;
+	height: auto;
+}
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track-piece{
+	background-color: #ebebeb;
+}
+::-webkit-scrollbar-thumb{
+	background-color:#828282;
+	outline: 2px solid #ebebeb;
+	outline-offset: -2px;
+	border: .1px solid #828282;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(107, 142, 35);
+    border: .1px solid rgb(107, 142, 35);
+}
+
+
+	/* Esse código é só para tirar as margens */
+.wrapper {
+  /* O elemento precisa ter uma altura definida para o efeito
+  funcionar.
+     100vh significa 100% da altura da view.
+  */
+  height: 100vh;
+  
+  /* O tamanho das imagens irá criar uma barra de rolagem 
+  horizontal. Iremos desativar isso */
+  overflow-x: hidden;
+
+  /* A propriedade perspective indica a "distância" entre o 
+  usuário e o plano Z.
+  Quanto maior o valor, mais perto o elemento estará do usuário.
+  Se for um valor negativo,
+  mais distante esse elemento estará.
+  */
+  perspective: 2px;
+  
+  /* O transform-style indica se os elementos filhos devem ser 
+  transformados em um plano 2D ou 3D.
+  O valor preserve-3d indica que os elementos devem seguir o 
+  espaço 3D indicado.
+  */
+  transform-style: preserve-3d;
+}
+
+.section {
+  /* Indicamos "relative" para depois podermos
+  posicionar os elementos filhos com "absolute" */
+  position: relative;
+ 
+  /* Indicamos uma altura para a nossa seção. O valor não 
+  importa muito.
+  Para garantir um bom efeito, coloquei também uma altura 
+  mínima de 700px;
+  */
+  height: 100vh;
+  min-height: 700px;
+  
+  /* Para manter a transformação em espaço 3D, indicamos o mesmo 
+  valor do elemento pai (preserve-3d).
+  Para não precisar repetir o valor "preserve-3d", você pode usar 
+  o valor "inherit", que fará
+  com que ele pegue o valor do elemento pai.
+  */
+  transform-style: inherit; 
+}
+
+.section::before {
+  /* Aqui nós iremos configurar a imagem que irá aparecer no fundo
+  da seção.
+  Como vimos, o Parallax precisa de elementos diferentes, então 
+  não daria certo se colocássemos o fundo diretamente na 
+  <section>. Então criaremos um pseudo-elemento para isso.
+  */
+  
+  /* Isso servirá para que o pseudo-elemento possua as mesmas
+  dimensões do elemento <section> */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  /* O z-index negativo irá garantir que a imagem não fique por 
+  cima de outros elementos */ 
+  z-index: -1;
+  
+  /* Aqui estamos fazendo com que a imagem de fundo cubra todo o
+  elemento */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+  /* Aqui está a brincadeira. Lembra que o nosso "wrapper" está
+  mais próximo do usuário?
+  Aqui nós faremos com que o nosso pseudo-elemento, que está com
+  a imagem de fundo, fique mais longe do usuário. Para isso, 
+  basta passar um valor negativo para "translateZ()".
+  
+  Como a imagem irá para longe do usuário, ela parecerá menor. 
+  Então usamos o "scale()" para aumentar o tamanho da imagem.
+  
+  Como o elemento estará mais longe do usuário, ele irá se mover
+  mais lentamente do que os elementos mais próximos conforme 
+  a gente role a página.
+  */
+  transform: translateZ(-1px) scale(1.5);
+}
+
+.text{
+  /* Essa classe, como dito antes, é só para o nosso conteúdo.
+  Sinta-se livre para criar o que quiser.
+  */
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255,0.5);
+
+  color: white;
+  text-shadow: 0 0 5px #000;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Em nosso pseudo-elemento, configuramos a imagem de fundo,
+mas não indicamos qual será a imagem.
+  Isso nos permite poder criar outras classes para indicar 
+  uma imagem diferente para cada <section>.
+*/
+.bg1::before {
+  background-image: url('C:\Users\24121742018.1\Documents\Bruno Mariano\imagens\espaco-para-casamemto_13_172348.jpeg');
+}
+
+.bg2::before {
+  background-image: url('C:\Users\24121742018.1\Documents\Bruno Mariano\imagens\Louge.jpg');
+}
+
+.bg3::before {
+  background-image: url('C:\Users\24121742018.1\Documents\Bruno Mariano\imagens\Finger-food-nos-eventos-corporativos-1.jpg');
+}
+/*  Agora basta colocar as classes .bg1, .bg2 e .bg3 em nossas sections
+
+Copiar
+{
+<main class="wrapper">
+  <section class="section bg1">
+    <p class="text" >TreinaWeb</p>
+  </section>
+  <section class="section bg2">
+    <p class="text" >Parallax</p>
+  </section>
+  <section class="section bg3">
+    <p class="text" >CSS</p>
+  </section>
+</main>
+}
+*/
+
+
+
